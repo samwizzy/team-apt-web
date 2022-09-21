@@ -1,8 +1,8 @@
-<header class="border-b">
+<header class="sm:px-4 px-6">
   <div class="sm:w-full max-w-7xl mx-auto">
-    <div class="flex justify-between">
-      <div class="logo flex items-center" routerLink="/">
-        <h1 class="text-4xl font-semibold">
+    <div class="flex justify-between items-center">
+      <div class="logo sm:block hidden" routerLink="/">
+        <h1 class="text-lg sm:text-4xl font-semibold">
           Grow<span class="text-xs text-red-500">&#9679;</span>
         </h1>
       </div>
@@ -17,7 +17,7 @@
         <ul class="flex text-sm text-gray-700">
           <li>
             <a
-              class="block p-3"
+              class="block sm:p-3 px-2"
               [routerLink]="['/']"
               routerLinkActive="router-active"
             >
@@ -26,7 +26,7 @@
           </li>
           <li>
             <a
-              class="block p-3"
+              class="block sm:p-3 px-2"
               [routerLink]="['/product']"
               routerLinkActive="router-active"
             >
@@ -35,7 +35,7 @@
           </li>
           <li>
             <a
-              class="block p-3"
+              class="block sm:p-3 px-2"
               [routerLink]="['/blog']"
               routerLinkActive="router-active"
             >
@@ -44,7 +44,7 @@
           </li>
           <li>
             <a
-              class="block p-3"
+              class="block sm:p-3 px-2"
               [routerLink]="['/reviews']"
               routerLinkActive="router-active"
             >

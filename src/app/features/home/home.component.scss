@@ -26,7 +26,7 @@ $base-color: #f5876a;
   height: 500px;
   width: 100%;
   border-radius: 250px 250px;
-  background-color: #f5876a;
+  background-color: $base-color;
   background-image: url(/assets/images/beauty-1.png);
   background-position: center bottom;
   background-size: 300px;
@@ -35,7 +35,7 @@ $base-color: #f5876a;
 
 .pills {
   column-gap: 1.5rem;
-  div.pill {
+  .pill {
     position: relative;
     width: 150px;
     height: 200px;
@@ -91,4 +91,35 @@ $base-color: #f5876a;
 
 .transparent-bg {
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 450px) {
+  .cylinder {
+    transform: translateX(0);
+  }
+
+  .oval {
+    display: none;
+  }
+
+  .box {
+    height: auto;
+  }
+
+  .pills {
+    column-gap: 0.5rem;
+    .pill {
+      background-color: #fff;
+      background-image: none;
+    }
+  }
+
+  .cone {
+    display: none;
+  }
+
+  .overlay {
+    right: 0;
+    display: none;
+  }
 }
