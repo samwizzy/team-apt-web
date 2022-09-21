@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Framesi",
+    "image": "assets/images/framesi.svg"
+  },
+  {
+    "id": 2,
+    "name": "Calvin-Klein",
+    "image": "assets/images/calvin-klein.png"
+  },
+  {
+    "id": 3,
+    "name": "Paystack",
+    "image": "assets/images/paystack.svg"
+  },
+  {
+    "id": 4,
+    "name": "Tesla",
+    "image": "assets/images/tesla.svg"
+  },
+  {
+    "id": 5,
+    "name": "Flutterwave",
+    "image": "assets/images/flutterwave.svg"
+  },
+  {
+    "id": 6,
+    "name": "Framesi",
+    "image": "assets/images/framesi.svg"
+  }
+]

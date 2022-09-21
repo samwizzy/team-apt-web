@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Shower Butter",
+    "price": "$190.99",
+    "image": "assets/images/product.png"
+  },
+  {
+    "id": 2,
+    "name": "Luxury Oil Gel",
+    "price": "$190.99",
+    "image": "assets/images/product-1.png"
+  },
+  {
+    "id": 3,
+    "name": "Body Oil",
+    "price": "$190.99",
+    "image": "assets/images/product.png"
+  },
+  {
+    "id": 4,
+    "name": "Sunrise Shampoo",
+    "price": "$190.99",
+    "image": "assets/images/product-1.png"
+  },
+  {
+    "id": 5,
+    "name": "Luxury Oil Gel",
+    "price": "$190.99",
+    "image": "assets/images/product.png"
+  }
+]

@@ -1,0 +1,332 @@
+<section
+  class="pt-16"
+  data-aos="fade-up"
+  data-aos-offset="500"
+  data-aos-duration="1000"
+  data-aos-delay="300"
+>
+  <div class="w-full sm:max-w-7xl mx-auto">
+    <div class="grid grid-cols-12 gap-x-8">
+      <div class="col-span-12 sm:col-span-6">
+        <h1 class="text-7xl font-medium mb-8">Let your skin<br />going out.</h1>
+        <p class="mb-8 text-gray-600">
+          We want to bring to the world through our<br />
+          products that very special feeling joy, healthy and<br />
+          positive energy.
+        </p>
+
+        <div class="flex gap-x-3">
+          <button
+            class="flex items-center bg-secondary-main text-white rounded-3xl px-4 py-3"
+            data-aos="fade-up"
+            data-aos-offset="500"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <span>Shop now</span>
+            <hero-icon
+              name="arrow-right"
+              hostDisplay="inlineBlock"
+              type="outline"
+              class="w-6 h-6 ml-2"
+            ></hero-icon>
+          </button>
+          <button
+            class="flex items-center text-gray-700 rounded-3xl px-4 py-3"
+            data-aos="fade-up"
+            data-aos-offset="500"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+          >
+            <mat-icon>play_arrow</mat-icon>
+            <span class="ml-2">How to use</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-span-12 sm:col-span-6">
+        <img src="assets/images/asian-model.png" class="w-100" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section
+  class="w-full sm:max-w-7xl mx-auto"
+  data-aos="fade-up"
+  data-aos-offset="300"
+  data-aos-duration="1000"
+>
+  <div class="grid grid-cols-12">
+    <div class="col-span-12 sm:col-span-3 flex items-center">
+      <div class="cylinder"></div>
+    </div>
+    <div class="col-span-12 sm:col-span-9">
+      <div class="box">
+        <div>
+          <h2 class="text-4xl font-medium mb-8">
+            The self care brand that's<br />setting a new
+            <span class="text-secondary-main">standard<br />Clean</span>
+            products.
+          </h2>
+
+          <div class="grid grid-cols-2 gap-x-6">
+            <div
+              *ngFor="let item of [1, 2]"
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-duration="1000"
+              data-aos-delay="200"
+            >
+              <h5 class="mb-3">Where are products made?</h5>
+              <p class="text-sm text-gray-600">
+                Many brands, especially in period<br />care, carry products that
+                take<br />centuries.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="w-full sm:max-w-7xl mx-auto py-16">
+  <div class="grid grid-cols-12 gap-8">
+    <div
+      class="col-span-12 sm:col-span-4"
+      data-aos="fade-up"
+      data-aos-offset="300"
+      data-aos-duration="1000"
+    >
+      <h3 class="text-5xl font-medium leading-normal mb-6">
+        Trending On<br /><span class="text-secondary-main">Essentials</span>
+      </h3>
+
+      <p class="text-sm text-gray-700 mb-8">
+        Made with nature's best ingredients — our<br />products' transparent
+        ingredient. Fear of<br />God's Essentials.
+      </p>
+
+      <button
+        class="flex items-center border border-secondary-main text-secondary-main rounded-3xl px-4 py-3"
+      >
+        <span>Browse all products</span>
+        <hero-icon
+          name="arrow-right"
+          hostDisplay="inlineBlock"
+          type="outline"
+          class="w-6 h-6 ml-2"
+        ></hero-icon>
+      </button>
+    </div>
+    <div
+      class="col-span-12 sm:col-span-4"
+      *ngFor="let item of products"
+      data-aos="fade-left"
+      data-aos-offset="500"
+      data-aos-duration="1000"
+    >
+      <div
+        class="bg-white shadow p-4 mb-2 flex items-center justify-center h-96"
+      >
+        <img [src]="item.image" alt="" />
+      </div>
+      <div class="flex flex-col text-center">
+        <h4 class="text-xl mb-2">{{ item.name }}</h4>
+        <span class="text-gray-600 text-sm">{{ item.price }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="w-full sm:max-w-7xl mx-auto py-16">
+  <div class="grid grid-cols-12">
+    <div
+      class="col-span-12 sm:col-span-9 bg-secondary-light px-16 py-24"
+      data-aos="fade-up"
+      data-aos-offset="300"
+      data-aos-duration="1000"
+      data-aos-delay="300"
+    >
+      <h3 class="text-5xl font-medium mb-6">
+        We make going all<br />natural
+        <span class="text-secondary-main">Beauty</span>
+      </h3>
+
+      <p class="text-sm text-gray-600 leading-6 mb-16">
+        Made with nature's best ingredients — our<br />products' transparent
+        ingredient lists allow you to know.
+      </p>
+
+      <div class="flex pills">
+        <div
+          class="pill pl-10 py-8 text-center"
+          data-aos="fade-up-right"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
+          <h5 class="text-xs">Product<br />Users</h5>
+          <h3 class="text-4xl text-secondary-main">7M+</h3>
+        </div>
+        <div
+          class="pill pl-10 py-8 -ml-12 text-center"
+          data-aos="fade-up-right"
+          data-aos-duration="1000"
+          data-aos-delay="400"
+        >
+          <h5 class="text-xs">Brand<br />Product</h5>
+          <h3 class="text-4xl text-secondary-main">99+</h3>
+        </div>
+        <div
+          class="pill pl-10 py-8 -ml-12 text-center"
+          data-aos="fade-up-right"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
+          <h5 class="text-xs">Product<br />Reviews</h5>
+          <h3 class="text-4xl text-secondary-main">5M+</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-span-12 sm:col-span-3 relative right-40 flex items-center">
+      <div
+        class="oval"
+        data-aos="zoom-in"
+        data-aos-offset="300"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+      ></div>
+    </div>
+  </div>
+</section>
+
+<section class="w-full sm:max-w-7xl mx-auto py-16">
+  <div class="grid grid-cols-12 gap-x-16">
+    <div class="col-span-12 sm:col-span-4">
+      <div
+        class="cone"
+        data-aos="zoom-in"
+        data-aos-offset="300"
+        data-aos-duration="1000"
+        data-aos-delay="300"
+      ></div>
+    </div>
+    <div
+      class="col-span-12 sm:col-span-8"
+      data-aos="fade-up"
+      data-aos-offset="500"
+      data-aos-duration="1000"
+      data-aos-delay="300"
+    >
+      <h3 class="text-6xl font-medium mb-6">
+        We have <span class="text-secondary-main">questions</span>,<br />
+        we have answers.
+      </h3>
+
+      <ul class="faq">
+        <li
+          class="py-6 pr-6"
+          *ngFor="let item of faqs"
+          (click)="changeAccordionTab(item.id)"
+        >
+          <div class="flex items-center">
+            <span class="flex-1">{{ item.title }}</span>
+            <hero-icon
+              [name]="selectedTab === item.id ? 'minus' : 'plus'"
+              hostDisplay="inlineBlock"
+              type="outline"
+              class="w-6 h-6"
+            ></hero-icon>
+          </div>
+          <div class="mt-6" *ngIf="selectedTab === item.id">
+            <p class="text-sm text-gray-600 leading-6">
+              Made with nature's best ingredients — our<br />products'
+              transparent ingredient lists allow you to know.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="w-full sm:max-w-7xl mx-auto py-8">
+  <div
+    class="bg-white relative p-12"
+    data-aos="fade-left"
+    data-aos-offset="500"
+    data-aos-duration="1000"
+    data-aos-delay="300"
+  >
+    <img src="assets/images/quote.svg" class="w-20 mb-8" alt="" />
+    <h3 class="text-2xl mb-16">
+      The UK jewelry awards is an event we always<br />
+      look forward to and we are so honoured to be recognised.
+    </h3>
+
+    <div>
+      <h5 class="">Jane Cooper</h5>
+      <span class="text-xs text-gray-500">Naperville, USA</span>
+    </div>
+
+    <div
+      class="overlay"
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      data-aos-delay="400"
+    ></div>
+  </div>
+
+  <div class="flex items-center gap-x-12 overflow-x-auto">
+    <div
+      *ngFor="let brand of brands"
+      class="w-48 flex-shrink-0"
+      data-aos="fade-left"
+      data-aos-offset="500"
+      data-aos-duration="1000"
+      data-aos-delay="600"
+    >
+      <img [src]="brand.image" [alt]="brand.name" />
+    </div>
+  </div>
+</section>
+
+<section
+  class="w-full sm:max-w-7xl mx-auto relative top-24"
+  data-aos="fade-left"
+  data-aos-offset="500"
+  data-aos-duration="1000"
+  data-aos-delay="200"
+>
+  <div class="grid grid-cols-12 gap-x-8">
+    <div *ngFor="let item of featured" class="col-span-12 sm:col-span-3">
+      <div
+        class="pic-box"
+        [ngStyle]="{
+          backgroundColor: item.id % 2 === 0 ? '#FD8259' : '#B9C2E6',
+          backgroundImage: 'url(' + item.image + ')'
+        }"
+      ></div>
+    </div>
+    <div
+      class="col-span-12 sm:col-span-3 bg-secondary-main p-12 flex flex-col items-center"
+    >
+      <img src="assets/images/instagram-50.svg" class="mb-4 mx-auto" alt="" />
+
+      <p class="text-gray-100 mb-4 text-center">
+        Join us and get all the<br />services we provide.
+      </p>
+
+      <div
+        class="w-12 h-12 transparent-bg shadow-sm rounded-full flex items-center justify-center"
+      >
+        <hero-icon
+          name="arrow-right"
+          hostDisplay="inlineBlock"
+          type="outline"
+          class="w-6 h-6"
+        ></hero-icon>
+      </div>
+    </div>
+  </div>
+</section>

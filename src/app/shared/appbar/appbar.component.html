@@ -1,0 +1,73 @@
+<header class="border-b">
+  <div class="sm:w-full max-w-7xl mx-auto">
+    <div class="flex justify-between">
+      <div class="logo flex items-center" routerLink="/">
+        <h1 class="text-4xl font-semibold">
+          Grow<span class="text-xs text-red-500">&#9679;</span>
+        </h1>
+      </div>
+
+      <nav
+        class="flex items-center gap-x-6 py-3"
+        data-aos="fade-down"
+        data-aos-offset="500"
+        data-aos-duration="1000"
+        data-aos-delay="200"
+      >
+        <ul class="flex text-sm text-gray-700">
+          <li>
+            <a
+              class="block p-3"
+              [routerLink]="['/']"
+              routerLinkActive="router-active"
+            >
+              Product
+            </a>
+          </li>
+          <li>
+            <a
+              class="block p-3"
+              [routerLink]="['/product']"
+              routerLinkActive="router-active"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              class="block p-3"
+              [routerLink]="['/blog']"
+              routerLinkActive="router-active"
+            >
+              Blog
+            </a>
+          </li>
+          <li>
+            <a
+              class="block p-3"
+              [routerLink]="['/reviews']"
+              routerLinkActive="router-active"
+            >
+              Reviews
+            </a>
+          </li>
+        </ul>
+
+        <button
+          mat-icon-button
+          mat-flat-button
+          color="warn"
+          matBadge="1"
+          matBadgePosition="after"
+        >
+          <hero-icon
+            name="shopping-bag"
+            hostDisplay="inlineBlock"
+            type="outline"
+            class="w-6 h-6"
+          ></hero-icon>
+        </button>
+      </nav>
+    </div>
+  </div>
+</header>
